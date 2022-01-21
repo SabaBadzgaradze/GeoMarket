@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973772480820",
+    "project_id": "geomarket-d6f06",
+    "storage_bucket": "geomarket-d6f06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973772480820:android:06a7a7495150c285080561",
+        "android_client_info": {
+          "package_name": "com.example.gamocda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973772480820-0g9tav1qr70b5bj2po3sv9gqr2lbkau5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0iKvqvT555eQFTENS-BZaWAOXyXNO7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973772480820-0g9tav1qr70b5bj2po3sv9gqr2lbkau5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

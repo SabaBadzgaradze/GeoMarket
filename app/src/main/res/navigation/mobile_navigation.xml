@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        tools:layout="@layout/fragment_home"
+        android:name="com.example.gamocda.fragments.HomeFragment"
+        android:label="HomeFragment" />
+
+    <fragment
+        android:id="@+id/accessoriesFragment"
+        tools:layout="@layout/fragment_accessories"
+        android:name="com.example.gamocda.fragments.AccessoriesFragment"
+        android:label="AccessoriesFramgent"/>
+
+    <fragment
+        android:id="@+id/pcFragment"
+        tools:layout="@layout/fragment_pc"
+        android:name="com.example.gamocda.fragments.PcFragment"
+        android:label="PcFragment"/>
+    <fragment
+        android:id="@+id/componentFragment"
+        android:name="com.example.gamocda.fragments.ComponentFragment"
+        android:label="ComponentFragment"
+        tools:layout="@layout/fragment_component"/>
+
+
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="მთავარი"/>
+
+    <item
+        android:id="@+id/accessoriesFragment"
+        android:icon="@drawable/ic_baseline_keyboard_24"
+        android:title="PC აქსესუარები"/>
+
+    <item
+        android:id="@+id/componentFragment"
+        android:icon="@drawable/ic_baseline_computer_24"
+        android:title="PC ნაწილები"/>
+
+    <item
+        android:id="@+id/pcFragment"
+        android:icon="@drawable/ic_baseline_computer_24"
+        android:title="კომპიუტერები"/>
+
+</menu>
