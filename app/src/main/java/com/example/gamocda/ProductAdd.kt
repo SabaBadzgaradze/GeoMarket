@@ -61,7 +61,6 @@ class ProductAdd : AppCompatActivity() {
         textfield = findViewById(R.id.textfield)
         buttonAddProduct = findViewById(R.id.buttonAddProduct)
         productList = arrayListOf()
-//        productCategory = findViewById(R.id.productCategory)
         productDescription = findViewById(R.id.productDescription)
         productTitle = findViewById(R.id.productName)
         productNumber = findViewById(R.id.productNumber)

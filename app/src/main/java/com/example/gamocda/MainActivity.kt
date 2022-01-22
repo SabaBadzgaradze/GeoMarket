@@ -28,10 +28,9 @@ class MainActivity : AppCompatActivity(){
     private lateinit var account:ImageView
     private lateinit var burgerButton:ImageView
     private lateinit var burgerNav: NavigationView
-//    private lateinit var searchView: SearchView
     private val auth = FirebaseAuth.getInstance()
     
-//    private val myAdapter: ProductsAdapter by lazy { ProductsAdapter() }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,7 +40,6 @@ class MainActivity : AppCompatActivity(){
         init()
         registerListener()
         navigation()
-//        search()
 
     }
 
@@ -51,7 +49,6 @@ class MainActivity : AppCompatActivity(){
         burgerButton = findViewById(R.id.burgerButton)
         burgerNav = findViewById(R.id.burgerNav)
         drawerLayout = findViewById(R.id.drawerLayout)
-//        searchView = findViewById(R.id.searchView)
 
 
 
@@ -65,12 +62,6 @@ class MainActivity : AppCompatActivity(){
         burgerButton.setOnClickListener {
             drawerLayout.openDrawer(GravityCompat.START)
         }
-
-//        searchView.setOnSearchClickListener {
-//            val bundle = Bundle()
-//            bundle.putString("searchText", searchView.query.toString())
-//            HomeFragment().arguments = bundle
-//        }
 
         cart.setOnClickListener {
             if (auth.currentUser != null) {
@@ -96,28 +87,7 @@ class MainActivity : AppCompatActivity(){
         burgerNav.setupWithNavController(controller)
     }
 
-//    private fun search(){
-//
-//    }
-//
-//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-//        menuInflater.inflate(R.menu.search_menu,menu)
-//
-//        val search = menu?.findItem(R.id.searchMenu)
-//        val searchView = search?.actionView as? SearchView
-//        searchView?.isSubmitButtonEnabled = true
-//        searchView?.setOnQueryTextListener(this)
-//    }
-//
-//    override fun onQueryTextSubmit(query: String?): Boolean {
-//        TODO("Not yet implemented")
-//    }
-//
-//    override fun onQueryTextChange(p0: String?): Boolean {
-//        TODO("Not yet implemented")
-//    }
-//
-//    private fun searchDatabase
+
 }
 
 

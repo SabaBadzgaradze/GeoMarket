@@ -19,8 +19,6 @@ import com.google.firebase.storage.FirebaseStorage
 class ProductsAdapter(val context: Context, private val productList: List<Product>, private val listener: OnItemClickListener):
     RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
 
-    private val auth = FirebaseAuth.getInstance()
-
     inner class ViewHolder(view: View): RecyclerView.ViewHolder(view), View.OnClickListener {
         val textViewPrice: TextView = view.findViewById(R.id.textViewPrice)
         val textViewTitle: TextView = view.findViewById(R.id.textViewTitle)
@@ -78,13 +76,3 @@ class ProductsAdapter(val context: Context, private val productList: List<Produc
     }
 
 }
-
-/*
-* val storageReference = FirebaseStorage.getInstance().getReferenceFromUrl("gs://studentsbtu.appspot.com/")
-
-        storageReference.child("ProfilePictures/${currentPost.postOwnerId}").downloadUrl.addOnSuccessListener { url ->
-            GlideApp.with(context).load(url).into(holder.userAvatar)
-        }.addOnFailureListener {
-            GlideApp.with(context).load("test")
-                .into(holder.userAvatar)
-        }*/

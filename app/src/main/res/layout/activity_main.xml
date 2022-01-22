@@ -37,17 +37,6 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-<!--            <SearchView-->
-<!--                android:id="@+id/searchView"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginHorizontal="10dp"-->
-<!--                android:layout_toStartOf="@+id/cart"-->
-<!--                android:layout_toEndOf="@+id/burgerButton"-->
-<!--                android:background="@drawable/searchbar_back"-->
-<!--                android:iconifiedByDefault="false"-->
-<!--                android:queryHint="Search" />-->
-
             <ImageView
                 android:id="@+id/cart"
                 android:layout_width="50dp"
